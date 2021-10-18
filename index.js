@@ -73,5 +73,6 @@ function rowSelect(){
 
 printPlayersBoard(playerTwoBoard);
 rowSelect();
+console.log(playerOneDestroyer.name);
 
 

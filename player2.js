@@ -23,11 +23,26 @@ let playerTwoBoard = [
     [" T ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■ ", " ■"]
 ]
 
-let playerTwoDestroyer = ["D", "D"];
-let playerTwoSub = ["S", "S", "S"];
-let playerTwoBattleship1 = ["B1", "B1", "B1", "B2"];
-let playerTwoBattleship2 = ["B2", "B2", "B2", "B2"];
-let playerTwoCarrier = ["C", "C", "C", "C", "C"];
+let playerTwoDestroyer = {
+    name: "Destoryer",
+    ship: ["D", "D"]
+};
+let playerTwoSub = {
+    name: "Submarine",
+    ship: ["S", "S", "S"]
+};
+let playerTwoBattleship1 = {
+    name: "Battleship 1",
+    ship: ["B1", "B1", "B1", "B1"]
+};
+let playerTwoBattleship2 = {
+    name: "Battleship 2",
+    ship: ["B2", "B2", "B2", "B2"]
+};
+let playerTwoCarrier = {
+    name: "Carrier",
+    ship: ["C", "C", "C", "C", "C"]
+};
 
 module.exports = {
     playerTwoBoard: playerTwoBoard,
