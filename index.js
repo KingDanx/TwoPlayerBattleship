@@ -13,7 +13,7 @@ function printPlayersBoard(playerBoardArray){
     }
 }
 
-printPlayersBoard(playerOneBoard);
+printPlayersBoard(playerTwoBoard);
 
 
 
