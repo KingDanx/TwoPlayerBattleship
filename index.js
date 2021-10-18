@@ -9,7 +9,7 @@ console.log(playerTwoBattleship1);
 //for displaying fullboard
 function printPlayersBoard(playerBoardArray){
     for(let i = 0; i < playerBoardArray.length; i++){
-        console.log(playerBoardArray[i].toString());
+        console.log(playerBoardArray[i].join(" "));
     }
 }
 
